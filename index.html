@@ -5,30 +5,24 @@
     <link href="css/scripts.css" rel="stylesheet" type="text/css" />
     <script src="js/index.js"></script>
   </head>
-  <body>
-    <h1>Finding out you Akan name</h1>
-      <div>This will help you determine you day of the week when you were born<em>(Akan name)</em>after inserting your birthday details.</div>
-      <p><em>Akan names</em> are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. </p>
-    <h2>Please insert your details below</h2>
-
-    <p>What will be required is your date of birth, month and year.
-      You are also required to select your gender if male or female.
-    </p>
-
-    
-      <label for="Birthday">Birthday:</label><br>
-      <input type="date" name="Birthday" name="Birthday"><br>
-
-      <input type="radio" id="Male" name="gender" value="Male">
-      <label for="Male">Male</label><br>
-
-      <input type="radio" id="Female" name="gender" value="Female">
-      <label for="Female">Female</label><br>
-
-      <button type="submit">submit Age</button>
+     <body>
+        <h1>Finding out you Akan name</h1>
+         <div>This will help you determine you day of the week when you were born<em>(Akan name)</em>after inserting your birthday details.</div>
+        <p><em>Akan names</em> are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. </p>
+         <h2>Please insert your details below</h2>
+        <p>What will be required is your date of birth, month and year.
+        You are also required to select your gender if male or female.</p>
+          <form name="form" onsubmit="event.preventDefault(); submitStaff()">
+           <label for="Birthday">Birthday:</label><br>
+           <input type="date" name="Birthday" name="Birthday"><br>
+           <input type="radio" id="Male" name="gender" value="Male">
+           <label for="Male">Male</label><br>
+           <input type="radio" id="Female" name="gender" value="Female">
+           <label for="Female">Female</label><br>
+           <button type="submit">submit Age</button>
 
   </form>
 
   
-   </body>
+    </body>
 </html>
