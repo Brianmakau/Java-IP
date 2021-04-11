@@ -2,22 +2,23 @@
 <html>
   <head>
     <title>Data Entry</title>
-    <link href="css/scripts.css" rel="stylesheet" />
-    <link href="js/index.js" rel="stylesheet"
+    <link href="css/scripts.css" rel="stylesheet" type="text/css" />
+    <link href="js/index.js" rel="stylesheet" type="text/js"
   </head>
   <body>
-    <h1>Birthday calculator</h1>
+    <h1>Finding out you Akan name</h1>
     <div>This will help you determine you day of the week when you were born<em>(Akan name)</em>after inserting your birthday details.</div>
     <h2>please insert your details below</h2>
-    <p>what will be required is your date of birth, month and year.
+    <p>What will be required is your date of birth, month and year.
       You are also required to select your gender whethere male or female
     </p>
     <form action="/action_page.php">
-      <label for="fname">First name:</label><br>
-      <input type="text" id="fname" name="fname" value="John"><br>
-      <label for="lname">Last name:</label><br>
-      <input type="text" id="lname" name="lname" value="Doe"><br><br>
-      <input type="submit" value="Submit">
+      <label for="birthday">birthday:</label><br>
+      <input type="date" id="birthday" name="birthday"><br>
+      <input type="radio"id="male"name="gender"value="male">
+      <label for="male">male</label><br>
+      <input type="radio"id="female"name="gender"value="female">
+      <label for="female">female</label><br>
     </form> 
 
   </body>
