@@ -1,5 +1,2 @@
-var date = parseInt(prompt());
-var month = parseInt(prompt());
-var year = parseInt(prompt());
-var result  = (date, month, year)
+var date = prompt("please enter you date of birth")
 
