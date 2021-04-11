@@ -12,15 +12,16 @@
          <h2>Please insert your details below</h2>
         <p>What will be required is your date of birth, month and year.
         You are also required to select your gender if male or female.</p>
-          <form name="form" onsubmit="event.preventDefault(); submitStaff()">
-           <label for="Birthday">Birthday:</label><br>
-           <input type="date" name="Birthday" name="Birthday"><br>
-           <input type="radio" id="Male" name="gender" value="Male">
-           <label for="Male">Male</label><br>
-           <input type="radio" id="Female" name="gender" value="Female">
-           <label for="Female">Female</label><br>
-           <button type="submit">submit Age</button>
 
+          <form name="form" onsubmit="event.preventDefault(); submitStaff()">
+           <label for="birthday">birthday:</label><br>
+           <input type="date" name="birthday" ><br>
+           <input type="radio" id="male" name="gender" value="male">
+           <label for="male">male</label><br>
+           <input type="radio" id="female" name="gender" value="female">
+           <label for="female">female</label><br>
+           <button type="submit">submit Age</button>
+           <p id="result">
   </form>
 
   
