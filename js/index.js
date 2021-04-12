@@ -18,4 +18,3 @@ function submitStaff(){
   }
   document.getElementById("result").innerHTML=result
 }
-
